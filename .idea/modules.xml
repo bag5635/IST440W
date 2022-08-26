@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DogWebDev/DogWebDev.iml" filepath="$PROJECT_DIR$/DogWebDev/DogWebDev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IST440W.iml" filepath="$PROJECT_DIR$/.idea/IST440W.iml" />
+    </modules>
+  </component>
+</project>
