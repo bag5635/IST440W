@@ -19,3 +19,29 @@
  .navbar-collapse{
   justify-content: flex-end;
  }
+ .header{
+  background-color: #F1E6D8;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
+.description{
+ position: absolute;
+ top: 30%;
+ margin: 2em;
+ paddind: 2em;
+}
+.description h1{
+ color:#000000;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px solid #CCA772;
+ background: #CCA772;
+ color:#ffffff;
+}
