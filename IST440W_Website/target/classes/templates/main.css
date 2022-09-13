@@ -2,20 +2,26 @@
  padding: 0;
  margin: 0;
 }
- .navbar {
- background:#4287f5;
-}
-.nav-link,
-.navbar-brand {
- color: #ffffff;
- cursor: pointer;
-}
-.nav-link {
- margin-right: 1em !important;
-}
-.nav-link:hover {
- color: #000000;
-}
-.navbar-collapse {
- justify-content: flex-end;
-}
+ .navbar{
+  background:#CCA772
+ }
+ .nav-link,
+ .navbar-brand{
+  color:#ffffff;
+  cursor: pointer;
+ }
+ .nav-link{
+  margin-right: 1em !important;
+ }
+ .nav-link:hover {
+  color: #000000;
+ }
+ .navbar-collapse{
+  justify-content: flex-end;
+ }
+ .header{
+  background-image: url("Whippit.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
