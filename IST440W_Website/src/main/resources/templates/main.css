@@ -10,6 +10,13 @@
   color:#ffffff;
   cursor: pointer;
  }
+ .navbar-brand-text{
+  color:#000000;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px;
+  padding-left: 2em;
+ }
  .nav-link{
   margin-right: 1em !important;
  }
@@ -30,6 +37,7 @@
  top: 30%;
  margin: 2em;
  paddind: 2em;
+ padding-top: 4em;
 }
 .description h1{
  color:#000000;
@@ -38,10 +46,15 @@
  color:#666;
  font-size: 20px;
  width: 50%;
- line-height: 1.5;
+ line-height: 2em;
 }
 .description button{
  border:1px solid #CCA772;
  background: #CCA772;
  color:#ffffff;
+
+}
+.row{
+ padding-top: 1em;
+ padding-left: 2em;
 }
