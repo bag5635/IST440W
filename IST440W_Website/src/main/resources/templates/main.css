@@ -65,7 +65,11 @@
 }
 
 .dropdown-menu{
- background: #f9f4ee;
+ background: #aaabb5;
+}
+.dropdown-item{
+ color: white;
+ font-family: cursive;
 }
 
 .container{
@@ -74,14 +78,22 @@
 }
 .col-sm{
  margin-top: 10em;
- border-color: white;
+ border-color: #817467;
  margin-left: 1em;
  margin-right: 1em;
  background: white;
  margin-bottom: 1em;
  color:#666;
  font-size: 20px;
-
+}
+.col-sm p{
+ margin-top: 3em;
+ margin-left: 2em;
+ margin-right: 2em;
+ text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+ color: #817467;
 }
 
 
