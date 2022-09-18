@@ -1,0 +1,100 @@
+.body {
+ padding: 0;
+ margin: 0;
+}
+ .navbar{
+  background:#7e8092
+ }
+ .nav-link,
+ .navbar-brand{
+  color:#ffffff;
+  cursor: pointer;
+ }
+ .navbar-brand-text{
+  color:#000000;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 30px;
+
+ }
+ .nav-link{
+  margin-right: 4em !important;
+  font-size: 20px;
+  font-family: cursive;
+ }
+ .nav-link:hover {
+  color: #000000;
+
+ }
+ .navbar-collapse{
+  justify-content: center;
+ }
+ .header{
+  background-color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
+.description{
+ position: absolute;
+ top: 30%;
+ margin: 2em;
+ paddind: 2em;
+ padding-top: 4em;
+ justify-content: center;
+
+
+}
+.d-flex{
+ padding: 2em;
+}
+.col-6 p{
+ color:#666;
+ font-size: 20px;
+ line-height: 2em;
+ text-align: center;
+ padding-top: 2em;
+}
+.col-6{
+ padding-bottom: 1em;
+}
+.description button{
+ border:1px solid #CCA772;
+ background: #CCA772;
+ color:#ffffff;
+}
+
+.dropdown-menu{
+ background: #aaabb5;
+}
+.dropdown-item{
+ color: white;
+ font-family: cursive;
+}
+
+.container{
+ background-color: #f9f4ee;
+ margin-top: 2em;
+}
+.col-sm{
+ margin-top: 10em;
+ border-color: #817467;
+ margin-left: 1em;
+ margin-right: 1em;
+ background: white;
+ margin-bottom: 1em;
+ color:#666;
+ font-size: 20px;
+}
+.col-sm p{
+ margin-top: 3em;
+ margin-left: 2em;
+ margin-right: 2em;
+ text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+ color: #817467;
+}
+
+
+
