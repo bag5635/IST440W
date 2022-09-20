@@ -20,4 +20,7 @@ public class HomeController {
         return "index";
     }
 
+    @RequestMapping("/Contact_Us.html")
+    public String contactus(){return "Contact_Us";}
+
 }
