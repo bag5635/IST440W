@@ -95,11 +95,21 @@
  font-weight: bold;
  color: #817467;
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-
+.col-8 p1{
+ text-align: center;
+ margin-top: 2em;
 }
+.OPup_info{
+ margin-top: 2em;
+}
+.Old_Puppies{
+ margin-top: 2em;
+}
+.puppies{
+ margin-top: 2em;
+}
+.puppies_info{
+ margin-top: 2em;
+}
+
 
