@@ -116,5 +116,11 @@
  margin-left: auto;
  margin-right: auto;
 }
+.aboutimage{
+ margin-top: 2em;
+}
+.col-6 h2{
+ padding-top: 1em;
+}
 
 
