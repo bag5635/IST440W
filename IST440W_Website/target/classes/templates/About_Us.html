@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Imports for bootstrap and springboot-->
     <meta charset="UTF-8">
     <meta name="viewport" conent="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,6 +13,7 @@
 
 </head>
 <body>
+<!--Setting up the nav bar with links and design-->
 <nav class="navbar navbar-expand-md">
     <a class="navbar-brand" href="#">
         <img src="Images\BMWLogosmall.png" width="90"
@@ -31,16 +33,17 @@
                    aria-expanded="false">
                     Puppies
                 </a>
+                <!--Setting up the dropdown feature with two pages-->
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Current Puppies</a>
+                    <a class="dropdown-item" href="Current_Pups.html">Current Puppies</a>
                     <div class="dropdown-divider" style="border-color:black;"></div>
-                    <a class="dropdown-item" href="#">Past Puppies</a>
+                    <a class="dropdown-item" href="Old_Puppies.html">Past Puppies</a>
                 </div>
             <li class="nav-item">
-                <a class="nav-link" href="#">Parents</a>
+                <a class="nav-link" href="Parents.html">Parents</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Testimonies</a>
+                <a class="nav-link" href="Testimonies.html">Testimonies</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
@@ -57,22 +60,33 @@
     <div class="container">
 
         <div class="row justify-content-center">
-            <div class="col-sm border">
-                <p>
-                    Welcome to the Blue Moon Whippets home page.
-                    Here you can learn about our puppies, parents, and about my business.
-                    Feel free to contact me by going to the contact me page.
+            <!--Content is centered and formatted into a column-->
+            <div class="col-6">
+                <div class="aboutimage">
+                    <img src="Images\Whippet_Parent_2.png" width="250"
+                         height="250" class="center">
+                </div>
 
+                <br>
+                <p>
+                    I first fell in love with the whippet breed back when I was in my Freshman year of high school. They're elegant, extraordinarily athletic when stretching those lengthy legs of theirs during outdoor activity–yet calm, unobtrusive and loving indoors. I was completely smitten.
+                    <br>
+                    <br>
+                    The first time I ever laid eyes on one, I knew I'd have to own one some day. Her name was Carolina, and she engaged the agility track at the local OTCH center like a pro. In fact, she was the instructor's "example" dog, who she borrowed every weekend from a good friend to give a visual aid of how to go about tackling the obstacle courses presented any given week. When she wasn't showing off her skills on the course, she remained content and curled up in her bed in the corner of the room while everyone else had a go.
+                    <br>
+                    <br>
+                    As soon as I had the money and the means more than a decade later, I decided that I didn't want to merely own these gorgeous dogs–I wanted to help preserve and better the breed through selective breeding and conformation. I grew up raising, whelping and aiding my mother since the young age of seven with her own dog breeding program of lovable Shih Tzu, until she retired from the trade back in 2012. I've lived my life around animals of all species, and couldn't imagine not being involved in some type of animal husbandry.
+                    <br>
+                    <br>
+                    The name I chose for our breeding program, Blue Moon Whippets, is lovingly inspired from the name used by my dad's pottery business that he owned and ran back in the 90's and early 2000's; Blue Moon Pottery. To keep the name involved in my own hobby business felt too good an opportunity to pass up.
+                    <br>
+                    <br>
+                    Here at Blue Moon Whippets, we value the health and well-being of our dogs above all else, and strive to produce companion animals that are both beautiful and sound of mind and body. We pride ourselves on having selected foundation dogs that meet the AKC breed standard, but who also possess docile, loving dispositions that make them and their offspring ideal for families looking for the perfect couch potato. Our whippets have been raised around elderly spaniels, young children, cats and small birds and get along wonderfully with everyone.
+                    <br>
+                    <br>
+                    We are a very small breeding program consisting of just three girls and our male. These dogs are pets first, always. All four are co-owned between myself and my mother, with Rembrant and Lacie residing with her while Isabella and Pumpkin live with our family as our only dogs. We are in no way, shape or form a large-scale kennel, and our puppies are raised in our home alongside our children and us.
                 </p>
 
-            </div>
-            <div class="col-6">
-                Hello there!
-
-
-            </div>
-            <div class="col-sm border">
-                test
             </div>
 
         </div>
@@ -83,10 +97,11 @@
 <!--    <h1> Hello </h1>
 <a href="/Puppies.html">Puppies</a> -->
 
-
+<!--Sets the background color to white, behind everything-->
 <style type="text/css">
     body { background: white !important; }
 </style>
+<!--Imports for Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
