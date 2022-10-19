@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IST440W_Website" target="18" />
+      <module name="IST440W_Website" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
