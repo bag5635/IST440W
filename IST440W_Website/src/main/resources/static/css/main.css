@@ -2,14 +2,17 @@
  padding: 0;
  margin: 0;
 }
+/* Formatting for main nav bar */
  .navbar{
   background:#7e8092
  }
+/* Formatting for nav button and background of the text color when hovering over the text*/
  .nav-link,
  .navbar-brand{
   color:#ffffff;
   cursor: pointer;
  }
+/* Formatting for nav text color*/
  .navbar-brand-text{
   color:#000000;
   font-weight: bold;
@@ -17,24 +20,29 @@
   font-size: 30px;
 
  }
+/* Formatting nav buttons to be spaced out and sizing*/
  .nav-link{
   margin-right: 4em !important;
   font-size: 20px;
   font-family: cursive;
  }
+/* Color change when hovering nav-link*/
  .nav-link:hover {
   color: #000000;
 
  }
+/* Formating for the dropdown menu*/
  .navbar-collapse{
   justify-content: center;
  }
+/* Formating for overall header content*/
  .header{
   background-color: white;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
  }
+/* Formating for anything labeled description, chance it's not being used*/
 .description{
  position: absolute;
  top: 30%;
@@ -45,9 +53,11 @@
 
 
 }
+/* Formating for anything labeled d-flex, chance it's not being used*/
 .d-flex{
  padding: 2em;
 }
+/* Formating for column-6 paragraph, setting color, font size, alignment and padding from other content.*/
 .col-6 p{
  color:#666;
  font-size: 20px;
@@ -55,27 +65,31 @@
  text-align: center;
  padding-top: 2em;
 }
+/* Formating for column-6 */
 .col-6{
  padding-bottom: 1em;
 }
+/* Formating for anything labeled description button, chance it's not being used*/
 .description button{
  border:1px solid #CCA772;
  background: #CCA772;
  color:#ffffff;
 }
-
+/* Formating for anything labeled description menu, chance it's not being used*/
 .dropdown-menu{
  background: #aaabb5;
 }
+/* Formating for anything labeled description item, chance it's not being used*/
 .dropdown-item{
  color: white;
  font-family: cursive;
 }
-
+/* Formating for anything labeled container, setting margins to match other pages, and background color*/
 .container{
  background-color: #f9f4ee;
  margin-top: 2em;
 }
+/* Formating for anything labeled column small, setting margins, text alignment, style, font and color*/
 .col-sm{
  margin-top: 10em;
  border-color: #817467;
@@ -86,6 +100,7 @@
  color:#666;
  font-size: 20px;
 }
+/* Formating for anything labeled column small paragraph, setting margins, text alignment, style, font and color*/
 .col-sm p{
  margin-top: 3em;
  margin-left: 2em;
@@ -95,26 +110,40 @@
  font-weight: bold;
  color: #817467;
 }
+/* Formating for anything labeled column 8 paragraph 1, centering text and matching margin to other pages*/
 .col-8 p1{
  text-align: center;
  margin-top: 2em;
 }
+/* Formating for anything labeled pup_info, setting top margin to be match other pages*/
 .OPup_info{
  margin-top: 2em;
 }
+/* Formating for anything labeled old_puppies, setting top margin to be match other pages*/
 .Old_Puppies{
  margin-top: 2em;
 }
+/* Formating for anything labeled puppies, setting top margin to be match other pages*/
 .puppies{
  margin-top: 2em;
 }
+/* Formating for anything labeled puppies_info, setting top margin to be match other pages*/
 .puppies_info{
  margin-top: 2em;
 }
+/* Formating for anything labeled center, helps center any image that can be found.*/
 .center{
  display: block;
  margin-left: auto;
  margin-right: auto;
+}
+/* Formats images to match the margin of other pages */
+.aboutimage{
+ margin-top: 2em;
+}
+/* Formating for anything labeled col-6 h2, added padding so content isn't hugged other content on the top.*/
+.col-6 h2{
+ padding-top: 1em;
 }
 
 

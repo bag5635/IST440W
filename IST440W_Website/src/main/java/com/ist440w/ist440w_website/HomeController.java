@@ -31,4 +31,7 @@ public class HomeController {
 
     @RequestMapping("/Parents.html")
     public String parents(){return "Parents";}
+
+    @RequestMapping("/Testimonies.html")
+    public String testimonies(){return "Testimonies";}
 }
