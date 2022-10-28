@@ -68,7 +68,7 @@
                 <div class="aboutimage">
                     <center><h3>Upload Puppy Information</h3></center>
                     <div class="container">
-                        <form action="action_page.php" method="post">
+                        <form action="upload.php" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-25">
                                     <label for="PuppieID">Puppy ID Number </label>
@@ -116,7 +116,7 @@
                                 <input type="file" id="myFile" name="filename">
                             </div>
                             <div class="row">
-                                <input type="submit" value="Submit">
+                                <input type="submit" name="submit" value="Submit">
                             </div>
                         </form>
                     </div>
