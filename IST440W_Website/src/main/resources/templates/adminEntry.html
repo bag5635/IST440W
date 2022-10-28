@@ -1,56 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Imports for bootstrap and springboot-->
     <meta charset="UTF-8">
-    <title>Admin Entry</title>
-</head>
-<body>
+    <meta name="viewport" conent="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-<div class="container">
-    <form action="action_page.php">
-        <div class="row">
-            <div class="col-25">
-                <label for="pname">Puppy Name</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="pname" name="pname" placeholder="Blue">
-            </div>
+    <title>Blue Moon Whippets</title>
+
+
+</head>
+
+<body>
+<!--Setting up the nav bar with links and design-->
+<nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">
+        <img src="Images\BMWLogosmall.png" width="90"
+             height="90" alt="">
+    </a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                   role="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    Puppies
+                </a>
+                <!--Setting up the dropdown feature with two pages-->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Current_Pups.html">Current Puppies</a>
+                    <div class="dropdown-divider" style="border-color:black;"></div>
+                    <a class="dropdown-item" href="Old_Puppies.html">Past Puppies</a>
+                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="Parents.html">Parents</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Testimonies.html">Testimonies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<header class="header">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <!--Content is centered and formatted into a column-->
+            <div class="col-6">
+                <div class="aboutimage">
+                    <center><h3>Upload Puppy Information</h3></center>
+                    <div class="container">
+                        <form action="action_page.php" method="post">
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="PuppieID">Puppy ID Number </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="PuppieID" name="PuppieID" placeholder="001">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="Gender">Gender</label>
+                                </div>
+                                <div class="col-75">
+                                    <select id="Gender" name="Gender">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="Color">Color </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="Color" name="Color" placeholder="Brown w/ Spots">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="Pup_Name">Puppy Name </label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="Pup_Name" name="Pup_Name" placeholder="Blue">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="Pup_Description">Description</label>
+                                </div>
+                                <div class="col-75">
+                                    <textarea id="Pup_Description" name="Pup_Description" placeholder="Write something.." style="height:200px"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <input type="file" id="myFile" name="filename">
+                            </div>
+                            <div class="row">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+
         </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="color">Color</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="color" name="color" placeholder="Brown w/ Spots">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="gender">Gender</label>
-            </div>
-            <div class="col-75">
-                <select id="gender" name="gender">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="description">Description</label>
-            </div>
-            <div class="col-75">
-                <textarea id="description" name="description" placeholder="Write something.." style="height:200px"></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <input type="file" id="myFile" name="filename">
-        </div>
-        <div class="row">
-            <input type="submit" value="Submit">
-        </div>
-    </form>
-</div>
+    </div>
+
+</header>
+
+<!--    <h1> Hello </h1>
+<a href="/Puppies.html">Puppies</a> -->
+
+<!--Sets the background color to white, behind everything-->
+<style type="text/css">
+    body { background: white !important; }
+</style>
+<!--Imports for Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
